@@ -1,0 +1,892 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix:after{
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.container{
+    width: 990px;
+    margin: 10px auto;
+}
+.container .box1{
+    float: left;
+    padding: 10px 0;
+}
+.container .box2{
+    float: left;
+}
+.container .box3{
+    float: left;
+    margin: 10px 0;
+    width: 990px;
+}
+.container .box4{
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.container .box5{
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.container .box6{
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.container .box7{
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.container .box8{
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.container .box9{
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+.container .box10{
+    padding: 0 25px;
+    margin: 10px 0;
+    background: url("images/bg-14.jpg");
+    border-bottom: 1px solid #ebebeb;
+}
+.container .box11{
+    padding: 10px 22px;
+    margin: 10px 0;
+}
+.container .head{
+    float: right;
+    font-size: 12px;
+}
+.container .logo{
+    float: left;
+    margin: 0 7px;
+}
+.container .nav{
+    float: left;
+    width: 990px;
+    margin-top: 18px;
+    border-top: 2px solid #f77035;
+    background: url("images/bg-33.png");
+}
+.container .category{
+    float: left;
+    width: 186px;
+    background: url("images/icon-30.png") no-repeat top;
+    border: 2px solid #f0ba87;
+}
+.container .lunbo{
+    float: left;
+    margin: 0 0 0 9px;
+    width: 532px;
+}
+.container .qijian{
+    float: left;
+    padding: 2px 8px;
+    margin: 9px 0 0 9px;
+    width: 514px;
+    background: url("images/bg-31.png");
+    border: 1px solid #d9d9d9;
+}
+.container .button{
+    float: left;
+    margin: -237px 0 0 3px;
+    width: 255px;
+    height: 55px;
+    background: url("images/bg_button.jpg") no-repeat top;
+}
+.container .baozhang{
+    float: left;
+    padding-bottom: 4px;
+    margin: -273px 0 0 738px;
+    width: 250px;
+    border: 1px solid #e3e3e3;
+    background: url("images/bg-31.png");
+}
+.container .retui{
+    float: left;
+    margin: -191px 0 0 738px;
+    padding: 5px 0 5px 0;
+    width: 250px;
+    color: #e1e1e1;
+    font: 18px Arial;
+    border: 1px solid #e3e3e3;
+    background: url("images/bg-32.png") no-repeat top;
+}
+.container .tehui{
+    float: left;
+    margin: 0 10px 0 0;
+    width: 728px;
+    border: 1px solid #e3e3e3;
+}
+.container .zixun{
+    float: left;
+    width: 248px;
+    border: 1px solid #e3e3e3;
+}
+.container .category1{
+    float: left;
+    width: 203px;
+    background: url("images/bg-30.jpg") no-repeat top;
+    border-top: 2px solid #fe9a4b;
+}
+.container .category2{
+    float: left;
+    width: 203px;
+    background: url("images/bg-29.jpg") no-repeat top;
+    border-top: 2px solid #86dac3;
+}
+.container .image{
+    float: left;
+    padding: 16px 0 0 54px;
+    width: 480px;
+    background: url("images/bg-01.jpg") no-repeat;
+    border-top: 1px solid #fe9a4b;
+}
+.container .paihang{
+    float: left;
+    width: 250px;
+    border-top: 1px solid #ddd;
+}
+.container .bangong{
+    float: left;
+    width: 250px;
+    border-top: 1px solid #ddd;
+}
+.container .zixun2{
+    float: left;
+    width: 250px;
+    border-top: 1px solid #e3e3e3;
+}
+.container .head ul li{
+    float: left;
+    color: #d3d3d3;
+    line-height: 20px;
+}
+.container .head ul .login{
+    width: 72px;
+    color: #f4c68d;
+    border: 1px solid #d3d3d3;
+    border-radius: 1px;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fffffe), to(#f8f0e5));;
+}
+.container .head ul .login a{
+    margin: 0 6px 0 6px;
+    color: #f76a22;
+}
+.container .head ul .login .register{
+    margin: 0px;
+}
+.container .head ul li img{
+    margin: 0 -7px 0 10px;
+}
+.container .head ul li a{
+    margin: 0 8px;
+    color: #666;
+}
+.container .logo ul li{
+    float: left;
+    height: 56px;
+}
+.container .logo ul li img{
+    margin-right: 9px;
+}
+.container .logo ul .line{
+    margin: 9px;
+    height: 38px;
+    border-left: 1px solid #dcdcdc;
+}
+.container .logo ul li p{
+    position: relative;
+    top: 8px;
+    text-align: center;
+    color: #cd0003;
+    font: 18px 微软雅黑;
+}
+.container .logo ul li a{
+    position: relative;
+    top: 2px;
+    color: #666;
+    font: 12px 宋体;
+}
+.container .logo ul li input{
+    padding-left: 30px;
+    position: relative;
+    top: 10px;
+    margin: 2px -7px 0 -23px;
+    width: 326px;
+    height: 26px;
+    border: 2px solid #fd8c01;
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color: #d3d3d3;
+    font: 12px 宋体;
+}
+.container .logo ul li form img{
+    position: relative;
+    top: 20px;
+    left: 18px;
+    z-index: 99;
+}
+.container .logo ul li button{
+    position: relative;
+    top: 12px;
+    padding: 3px 22px 8px 22px;
+    color: #fff;
+    font: 18px 微软雅黑;
+    background: url("images/icon_botton.png") no-repeat;
+    border: none;
+}
+.container .logo ul .phone img{
+    float: left;
+    margin: 22px 3px 0 10px;
+}
+.container .logo ul .phone a{
+    float: left;
+    margin: 19px 2px 0 0;
+    font: 12px 宋体;
+    color: #cd0003;
+}
+.container .logo ul .phone p{
+    float: left;
+    margin: 7px 0 0 5px;
+    color: #3a3a3a;
+    font: 18px 黑体 加粗;
+}
+.container .logo p{
+    text-align: center;
+    font: 12px 宋体;
+    color: #999;
+}
+.container .logo p a{
+    color: #b0b0b0;
+}
+.container .logo p h5{
+    margin-right: 8px;
+    color: #b0b0b0;
+}
+.container .nav ul{
+    text-align: center;
+}
+.container .nav ul li{
+    float: left;
+    line-height: 28px;
+}
+.container .nav ul .first{
+    margin: 0 18px;
+    background: url("images/icon-03.png") no-repeat;
+}
+.container .nav ul li:hover{
+    background: url("images/icon-03.png") no-repeat center;
+}
+.container .nav ul li h5 a{
+    padding: 0 30px 0 28px;
+    font: 14px;
+    color: #000;
+}
+.container .nav ul li:hover h5 a{
+    color: #fff;
+}
+.container .nav ul .first h5 a{
+    color: #fff;
+}
+.container .nav ul .hot h5 a{
+    color: #f87736;
+}
+.container .nav ul .hot h5 a img{
+    position: relative;
+    top: 3px;
+}
+.container .category ul{
+    padding: 0 4px;
+}
+.container .category .catalog{
+    text-align: center;
+    margin-top: 4px;
+    height: 22px;
+    color: #f26122;
+    font: 14px 宋体 加粗;
+}
+.container .category ul li{
+    padding: 7px 0 10px 6px;
+    color: #f26122;
+    font: 12px 宋体 加粗;
+    border-bottom: 1px solid #f9e3ce;
+}
+.container .category ul li p a{
+    color: #999;
+    font: 12px 宋体;
+}
+.container .category ul .normal{
+    border: none;
+}
+.container .lunbo ul{
+    margin: -5px 0 0 1px;
+}
+.container .lunbo ul li{
+    float: left;
+    line-height: 30px;
+    background: #505859 bottom;
+}
+.container .lunbo ul li:hover{
+    background: #ea7b47;
+}
+.container .lunbo ul .first{
+    padding: 0 15px;
+    background: #ea7b47;
+}
+.container .lunbo ul .first a{
+    color: #fff;
+}
+.container .lunbo ul li a{
+    padding: 0 14px 0 15px;
+    color: #a4a4a4;
+    font: 12px 宋体;
+}
+.container .lunbo ul li:hover a{
+    color: #fff;
+}
+.container .qijian p{
+    color: #aad0ff;
+    font: 16px 黑体;
+}
+.container .qijian ul li{
+    float: left;
+    padding: 0 34px 7px 14px;
+}
+.container .qijian ul .normal{
+    padding-right: 0;
+}
+.container .qijian ul li a span{
+    margin-left: 7px;
+    text-align: center;
+    color: #a9a9a9;
+    font: 12px 宋体;
+}
+.container .qijian ul li a img{
+    display: block;
+}
+.container .button ul li p{
+    float: left;
+    padding: 16px 4px 0 9px;
+    color: #308fc4;
+    font: 16px 微软雅黑;
+}
+.container .button ul li a{
+    float: left;
+    padding: 21px 4px 0 0;
+    color: #4b98c3;
+    font: 12px 宋体;
+}
+.container .button ul .jingji p{
+    padding-left: 5px;
+    color: #ea5e00;
+}
+.container .button ul .jingji a{
+    color: #ea5e00;
+}
+.container .baozhang ul li{
+    float: left;
+    padding: 10px 16px 2px 13px;
+    text-align: center;
+}
+.container .baozhang ul li a{
+    text-align: center;
+    color: #b3b3b3;
+    font: 12px 宋体;
+}
+.container .baozhang ul li a img{
+    display: block;
+}
+.container .baozhang ul .normal{
+    padding-right: 0;
+}
+.container .retui h5{
+    float: left;
+    padding: 1px 0 2px 12px;
+    color: #333;
+    font-size: 14px;
+}
+.container .retui ul{
+    padding: 7px 10px 0 10px;
+}
+.container .retui ul li{
+    padding: 8px 12px 8px 12px;
+    border-bottom: 1px dotted #d4d4d4;
+    font-family: 宋体;
+}
+.container .retui ul .normal{
+    border: none;
+}
+.container .retui ul li a{
+    float: left;
+}
+.container .retui ul li span{
+    float: left;
+    color: #666;
+    font-size: 12px;
+}
+.container .retui ul li a{
+    float: left;
+    margin-left: -8px;
+    font-size: 12px;
+}
+.container .retui ul li a span{
+    color: #666;
+    font-weight: 400;
+}
+.container .retui ul li a .light{
+    color: #f26122;
+    font-weight: 700;
+}
+.container .retui ul li a .normal{
+    float: left;
+    margin-left: 4px;
+    color: #333;
+    font-weight: 700;
+}
+.container .retui ul li .last{
+    margin: 20px 0 0 -116px;
+}
+.container .retui ul li .time{
+    float: right;
+}
+.container .retui ul li img{
+    float: left;
+}
+.container .tehui div{
+    height: 28px;
+    background: url("images/icon-171.png") no-repeat left top;
+}
+.container .tehui ul li{
+    float: left;
+    text-align: center;
+    padding-left: 10px;
+    margin: 14px 0 -20px 0;;
+}
+.container .tehui span ,.container .tehui p{
+    font: 24px Arial;
+    color: #fff;
+    font-style: oblique;
+}
+.container .tehui .title{
+    float: left;
+    padding: 2px 4px 0 26px;
+    line-height: 28px;
+    font: 18px 微软雅黑;
+    font-style: oblique;
+}
+.container .tehui .best{
+    font: 14px Century725BT;
+    font-style: oblique;
+}
+.container .tehui .price{
+    float: left;
+    margin: -5px 0 0 -2px;
+    font: 10px ErasITCbyBT Bold;
+    font-style: oblique;
+}
+.container .tehui .gantan{
+    margin: -18px 0 0 6px;
+    font-style: oblique;
+}
+.container .tehui ul .first{
+    margin-left: -126px;
+}
+.container .tehui ul li a{
+    margin: 0 18px 0 0;
+}
+.container .tehui ul li a img{
+    display: block;
+    margin: -20px 0 -10px 0;
+}
+.container .tehui ul li a .light{
+    float: left;
+    margin-top: -2px;
+    text-align: center;
+    font: 12px 宋体;
+    color: #ff6600;
+    font-weight: 700;
+}
+.container .tehui ul .title1,.container .tehui ul .title2,.container .tehui ul .title3,.container .tehui ul .title4{
+    position: relative;
+    top: -22px;
+    z-index: 99;
+    padding: 10px 19px;
+    margin-right: -16px;
+    text-align: center;
+    font: 16px 微软雅黑;
+    background: rgba(212,80,123,0.7);
+}
+.container .tehui ul .title2{
+    background: rgba(134,21,20,0.7);
+}
+.container .tehui ul .title3{
+    background: rgba(148,47,8,0.7);
+}
+.container .tehui ul .title4{
+    background: rgba(50,103,127,0.7);
+}
+.container .tehui ul li a span{
+    margin: -30px 0 0 0;
+    font: 16px 微软雅黑;
+}
+.container .tehui ul li a .xiangxi{
+    float: left;
+    margin: 0 0 14px 0;
+    text-align: center;
+    color: #666;
+    font: 12px 宋体;
+}
+.container .tehui ul li a .normal{
+    margin: 30px 0 0 20px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background: none;
+}
+.container .zixun a{
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+.container .zixun .zoushi{
+    padding: 9px 22px 9px 25px;
+    width: 106px;
+    line-height: 16px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-top: none;
+    background: url("images/bg-31.png");
+}
+.container .zixun h5 a{
+    float: left;
+    text-align: center;
+    line-height: 32px;
+    width: 78px;
+}
+.container .zixun .xiangxi{
+    padding-bottom: 14px;
+    margin: 14px 8px 0 8px;
+    font-size: 0;
+    border-bottom: 1px dotted #c2c2c2;
+}
+.container .zixun .xiangxi img{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.container .zixun .xiangxi span{
+    text-align: left;
+    color: #333;
+    font: 12px 宋体;
+}
+.container .zixun .xiangxi .light{
+    color: #ff6600;
+    font-weight: 700;
+}
+.container .zixun .xiangxi .detail{
+    position: relative;
+    top: 5px;
+    color: #999;
+}
+.container .zixun ul{
+    margin: 0 0 0 10px;
+}
+.container .zixun ul li a{
+    padding: 8px 0 4px 10px;
+    color: #666;
+    font: 12px 宋体;
+    background: url("images/dotted.jpg") no-repeat left center;
+}
+.container .category1 .xinfang {
+    float: left;
+    margin: 4px 0 0 0;
+    font: 18px 微软雅黑;
+    color: #f26122;
+}
+.container .category1 .more{
+    float: right;
+    margin: 8px 18px 0 0;
+    font: 12px 宋体;
+    color: #f36423;
+}
+.container .category1 .more img{
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.container .category1 ul{
+    padding: 38px 12px 0 12px;
+}
+.container .category1 ul li{
+    padding: 8px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.container .category1 ul li h5{
+    color: #eea180;
+    font-size: 12px;
+}
+.container .category1 ul li a{
+    margin-right: 8px;
+    color: #666;
+    font: 12px 宋体;
+}
+.container .category1 ul .price a{
+    margin-right: 2px;
+}
+.container .category1 ul .normal{
+    border: none;
+}
+.container .image a,.container .image1 a{
+    float: left;
+}
+.container .image a img{
+    display: block;
+}
+.container .image .pic1{
+    margin-right: 24px;
+}
+.container .image .pic2{
+    margin-bottom: 18px;
+}
+.container .image a .hot{
+    position: relative;
+    top: -150px;
+    z-index: 99;
+}
+.container .paihang a{
+    float: left;
+    padding: 9px 0;
+    width: 114px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+.container .paihang .kaipan{
+    padding: 9px 20px 9px 20px;
+    width: 91px;
+    line-height: 16px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-top: none;
+    background: url("images/bg-31.png");
+}
+.container .paihang ul{
+    padding: 0 8px;
+}
+.container .paihang ul li{
+    float: left;
+    padding: 2px 20px 0 14px;
+    color: #ff6600;
+    font: 20px Arial;
+    font-style: italic;
+}
+.container .paihang ul li a{
+    float: right;
+    padding-left: 10px;
+    width: 170px;
+    color: #666;
+    text-align: left;
+    font: 12px 宋体;
+}
+.container .paihang ul .first{
+    background: url("images/bg-30.png") no-repeat;
+}
+.container .paihang ul .ji{
+    background: url("images/bg-32.png") no-repeat;
+}
+.container .paihang ul .img a img{
+    margin: -10px 0 -10px -10px;
+}
+.container .paihang ul .img span{
+    float: right;
+    margin-left: -10px;
+    text-align: left;
+    color: #666;
+    font: 12px 宋体;
+}
+.container .paihang ul li a span{
+    color: #333;
+    font-weight: 700;
+}
+.container .category2 .lvyou {
+    float: left;
+    margin: 4px 0 0 0;
+    font: 18px 微软雅黑;
+    color: #23866c;
+}
+.container .category2 .more{
+    float: right;
+    margin: 8px 18px 0 0;
+    font: 12px 宋体;
+    color: #389178;
+}
+.container .category2 .more img{
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.container .category2 ul{
+    padding: 38px 12px 0 12px;
+}
+.container .category2 ul li{
+    padding: 8px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.container .category2 ul li h5{
+    color: #9ac9bc;
+    font-size: 12px;
+}
+.container .category2 ul li a{
+    margin-right: 8px;
+    color: #666;
+    font: 12px 宋体;
+}
+.container .category2 ul .normal{
+    border: none;
+}
+.container .box6 .image span{
+    font: 12px 宋体;
+    color: #666;
+}
+.container .box6 .image .font{
+    padding: 8px 0 4px 10px;
+    color: #666;
+    font: 12px 宋体;
+    background: url("images/dotted.jpg") no-repeat left center;
+}
+.container .box6 .image .light{
+    color: #ff6600;
+    font-weight: 700;
+}
+.container .bangong a{
+    float: left;
+    padding: 9px 10px;
+    width: 114px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+.container .box7 .category2 ul li a{
+    margin-right: 4px;
+}
+.container .box7 .image .pic1 span{
+    font: 12px 宋体;
+    color: #333;
+    font-weight: 700;
+}
+.container .box7 .image .shenqing{
+    padding: 0 14px;
+    margin: 180px 150px 20px -230px;
+    color: #fff;
+    font: 15px 微软雅黑;
+    background: url("images/button.jpg");
+}
+.container .box7 .image ul li a{
+    padding: 0 0 10px 10px;
+    color: #666;
+    font: 12px 宋体;
+    background: url("images/dotted.jpg") no-repeat left 5px;
+}
+.container .zixun2 a{
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+.container .zixun2 h5 a{
+    float: left;
+    padding: 9px 10px;
+    width: 115px;
+    text-align: center;
+    line-height: 32px;
+}
+.container .zixun2 .xiangxi{
+    padding: 0 0 14px 0;
+    margin: 0 20px 0 20px;
+    font-size: 0;
+    border-bottom: 1px dotted #c2c2c2;
+}
+.container .zixun2 .xiangxi img{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.container .zixun2 .xiangxi span{
+    text-align: left;
+    color: #333;
+    font: 12px 宋体;
+}
+.container .zixun2 .xiangxi .light{
+    color: #ff6600;
+    font-weight: 700;
+}
+.container .zixun2 .xiangxi .detail{
+    position: relative;
+    top: 5px;
+    color: #999;
+}
+.container .zixun2 ul{
+    margin: 0 0 0 20px;
+}
+.container .zixun2 ul li a{
+    padding: 8px 0 4px 10px;
+    color: #666;
+    font: 12px 宋体;
+    background: url("images/dotted.jpg") no-repeat left center;
+}
+.container .box8 .category2 ul li a{
+    margin-right: 4px;
+}
+.container .box9 img{
+    padding: 24px 14px;
+}
+.container .box9 a{
+    padding: 0 12px;
+}
+.container .box9 a img{
+    background: url("images/bg-31.png");
+}
+.container .box10 ul{
+    padding: 14px 0;
+}
+.container .box10 ul li h5{
+    float: left;
+    margin-right: 4px;
+    color: #333;
+    font-size: 12px;
+}
+.container .box10 ul li a{
+    position: relative;
+    top: -5px;
+    margin: 0 4px;
+    color: #666;
+    font: 12px 宋体;
+}
+.container .box11 div{
+    float: left;
+}
+.container .box11 .rexian{
+    float: left;
+    margin-left: 6px;
+    color: #c92d2d;
+    font: 12px 宋体;
+}
+.container .box11 p a{
+    color: #909090;
+    font: 12px 宋体;
+}
+.container .box11 p a span{
+    color: #333;
+    font-family: Arial;
+}
